@@ -56,4 +56,61 @@ table {
 html, body {
     height: 100%;
 }
+@new-font:'Ubuntu', sans-serif;
 
+.container{
+	width:100%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+
+/////header////////
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	nav{
+		margin-top: 10px;
+		margin-bottom: 35px;
+	}
+	nav a{
+		text-decoration: none;
+		color: black;
+		font:@new-font;
+	}
+}
+/////header ends//////
+
+///top section starts here///
+.thebigbox{
+display: flex;
+flex-direction: column;
+border-bottom: 1px solid black;
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-top: 2.5%
+}
+
+.thelittlebox{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 2.5%
+}
+//////top section ends here/////
+
+/////bottom section starts/////
+.history-grid{
+
+}
+////bottom section ends//////
+
+////footer/////
+footer{
+	font-size: small;
+	display: flex;
+	justify-content: center;
+}
