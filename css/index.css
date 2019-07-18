@@ -147,7 +147,6 @@ h5 {
 .container {
   width: 85%;
   margin: auto;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -229,14 +228,24 @@ nav a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border-bottom: 1px dotted black;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 0%;
 }
 .history .jobs {
   display: flex;
   flex-direction: column;
-  width: 42%;
+  margin-right: 7%;
+  background-color: #ebf5eba6;
+  width: 68%%;
 }
 .history .jobs ul {
-  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+}
+.history .contact-info {
+  width: 73%;
 }
 .history .contact-info ul {
   list-style-type: disc;
