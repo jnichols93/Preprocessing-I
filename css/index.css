@@ -231,14 +231,15 @@ nav a {
   border-bottom: 1px dotted black;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  margin-top: 0%;
+  padding: 0%;
+  margin: 2.5%;
 }
 .history .jobs {
   display: flex;
   flex-direction: column;
   margin-right: 7%;
   background-color: #ebf5eba6;
-  width: 68%%;
+  width: 68%;
 }
 .history .jobs ul {
   display: flex;
